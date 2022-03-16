@@ -1,0 +1,8 @@
+
+const readline = require("readline-sync");
+let numero= readline.question("Digite um numero: ");
+let r = numero%2
+let par =(r == 0);
+console.log ( "o numero", numero , "E par ?", par);
+
+

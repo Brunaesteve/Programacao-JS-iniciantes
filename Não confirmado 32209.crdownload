@@ -1,0 +1,4 @@
+const readline = require("readline-sync");
+let numero = readline.question("Digite a temperatura: ");
+let resultado = numero > 25;
+console.log ( "Esta calor? ", resultado);
